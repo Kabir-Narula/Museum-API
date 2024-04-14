@@ -1,0 +1,74 @@
+/* MainNav.module.css */
+
+/* Navbar */
+.navbar {
+  background-color: rgba(25, 25, 25, 0.9); /* Dark gray with 90% opacity for a modern look */
+  backdrop-filter: blur(8px); /* Stronger blur effect behind the navbar */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #FFC107; /* Amber text color for the brand */
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  color: #F0F0F0; /* Light gray text color for navigation links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #FFD700; /* Gold color on hover/focus */
+}
+
+/* Toggle Button */
+.navbar-toggler {
+  border-color: #F0F0F0; /* Light gray border color for the toggle button */
+}
+
+.navbar-toggler-icon {
+  background-color: #F0F0F0; /* Light gray background color for the toggle icon */
+}
+
+/* Search Input */
+.form-control {
+  background-color: rgba(255, 255, 255, 0.2); /* White with 20% opacity for the search input */
+  color: #F0F0F0; /* Light gray text color */
+  border-color: transparent; /* Transparent border */
+}
+
+.form-control::placeholder {
+  color: #B0B0B0; /* Light gray placeholder text color */
+}
+
+/* Buttons */
+.btn-outline-light {
+  border-color: #FFC107; /* Amber border color */
+  color: #FFC107; /* Amber text color */
+  transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+  background-color: #FFD700; /* Gold background color on hover/focus */
+  color: black; /* Black text color on hover/focus */
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  color: #F0F0F0; /* Light gray text color for dropdown items */
+  background-color: rgba(0, 0, 0, 0.6); /* Dark gray with 60% opacity for dropdown background */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: rgba(25, 25, 25, 0.8); /* Dark gray with 80% opacity on hover/focus */
+}
+
+/* History List Item */
+.historyListItem:hover {
+  background-color: #E0E0E0; /* Light gray background color on hover */
+  cursor: pointer;
+}
